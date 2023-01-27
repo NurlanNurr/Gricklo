@@ -627,24 +627,73 @@ ul li a:hover{
         font-weight: 600;
         line-height: 1.4;
         margin-bottom: 14px;
+        margin-top: 80px; 
     }
     
-    .restaurant_cards p{
+    .restaurant_cards h4{
         color: #6B5A5A;
         font-size: 18px;
         font-weight: 300;
         line-height: 1.5;
         font-family: 'Mulish', sans-serif;
-        margin-bottom: 80px;
+        margin-bottom: 40px; 
     }
     .restaurant_cards{
-
+        text-align: center;
+        padding-bottom: 20px;
     }
-
-
-  
-
-
-
-
 /* GRID srestaurant casrds END */
+
+/* Explore sec start */
+.explore_main{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_and_writing{
+    width: 60%;
+    height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_and_writing div h2{
+    color: #1A213D;
+font-size: 24px;
+line-height: 1.3;
+margin-bottom: 8px;
+font-family: 'Work Sans',sans-serif;
+}
+.button_and_writing div p{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+}
+.explore_main{
+   margin-bottom: 80px;
+}
+/* Explore sec END */
+
+/* How it Work sec Start */
+.how_work{
+    width: 100%;
+    height: 600px;
+    background-color: #F1F6F9;
+    text-align: center;
+}
+
+.how_work h2{
+    font-family: 'Work Sans',sans-serif;
+    color: #1A213D;
+    font-size: 36px;
+    padding-top: 100px;
+   
+}
+
+
+/* How it Work sec End */
